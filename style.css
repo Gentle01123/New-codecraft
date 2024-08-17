@@ -1,0 +1,174 @@
+body {
+    scroll-behavior: smooth;
+    
+}
+
+/******* Nav bar*******/
+
+/*******jumbotron*******/
+.jumbotron {
+    background-color: ;
+    height: 790px;
+    margin-top: ;
+    padding: 100px;
+}
+.anime { 
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+/******* about*******/
+/******* course*******/
+
+.nav-underline {
+    gap: 30px;
+    padding: 20px;
+}
+
+.second {
+    color: black;
+    font-size: larger;
+}
+
+.tab-content {
+    background-color: rgb(215, 230, 225);
+    padding: 30px;
+}
+
+
+.course-card {
+    padding: 2px;
+}
+
+.box {
+    background-color: rgb(235, 245, 235);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img-fluid {
+
+    height: 12vw;
+    object-fit: ;
+}
+
+.first-button {
+    background-color: ;
+    width: 200px;
+    border: blue 1px solid;
+    border-radius: 20px;
+}
+
+.second-button, .third-button {
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    width: px;
+    margin: 5px;
+}
+
+.second-button {
+    background-color: rgb(101, 196, 101);
+}
+
+
+.third-button {
+    background-color: transparent;
+    text-decoration: ;
+    transition: text-decoration 0.1s ease-in-out;
+}
+
+.third-button:hover {
+    text-decoration: underline;
+}
+
+.fouth-button {
+    background-color: transparent;
+    border: blue 1px solid;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.fifth-button {
+    background-color: ;
+    border: black 1px solid;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+/******* Newsletter*******/
+.bg-help {
+    height: 250px;
+    padding: 30px;
+}
+
+.help {
+    height: ;
+    padding: 20px;
+
+}
+
+/******* contact*******/
+.bg-contact {
+    height: 600px;
+    margin: 30px;
+}
+label, textarea {
+    display: block;
+    padding: 10px;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    padding: ;
+
+}
+
+textarea {
+    width: 500px;
+    padding: 10x;
+    margin-left: 10px;
+
+}
+.right-box {
+    height: ;
+    padding: 20px;
+
+}
+
+.sixth-button {
+    background-color: ;
+    border: black 1px solid;
+    width: 200px;
+    border-radius: 2px;
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+}
+/******* footer*******/
+.bg-footer {
+    margin: 30px;
+}
+.last-footer {
+    background-color: ;
+}
+
+.quick-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-links a {
+    color: black;
+    text-decoration: none;
+}0
