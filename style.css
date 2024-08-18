@@ -133,12 +133,7 @@ input{
 
 }
 
-textarea {
-    width: 500px;
-    padding: 10x;
-    margin-left: 10px;
 
-}
 .right-box {
     height: ;
     padding: 20px;
@@ -148,12 +143,18 @@ textarea {
 .sixth-button {
     background-color: ;
     border: black 1px solid;
-    width: 200px;
     border-radius: 2px;
-    margin-top: 20px;
     height: 40px;
     align-items: center;
+    margin-top: 15px;
+    margin-left: 2%;
 }
+
+.send-message {
+    padding: 10px;
+
+}
+
 /******* footer*******/
 .bg-footer {
     margin: 30px;
