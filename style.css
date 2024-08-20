@@ -5,11 +5,59 @@ body {
 
 /******* Nav bar*******/
 
+.nav-button {
+   border-radius: 20px;
+   border: black 1px solid;
+   width: 150px;
+}
+
+.navbar {
+    border-color: rgb(51, 17, 0);
+	border-color: rgba(51, 17, 0, 0.2);
+	font-weight: 700;
+	padding: 10px 0;
+	transition: padding .5s;
+}
+
+.navbar .navbar-brand {
+	font-weight: 500;
+	text-transform: none;
+	font-size: 25px;
+	padding-left: 15px;
+	text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+	color: #ffc266;
+	transition: color 1s;
+}
+
+.navbar .navbar-nav > li > a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin: auto 5px;
+    font-family: 'Lato', sans-serif; 
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus:hover {
+	color: #ffc266;
+	transition: color 1s; 
+}
+
+
+.navbar .navbar-nav > li.active > a:hover,
+.navbar .navbar-nav > li.active > a:focus:hover {
+	background-color: transparent;
+}
+
+
 /*******jumbotron*******/
 .jumbotron {
     background-color: ;
     height: 790px;
-    margin-top: ;
     padding: 100px;
 }
 .anime { 
@@ -24,6 +72,20 @@ body {
     }
   }
 /******* about*******/
+
+.first-abt, .second-abt, .third-abt {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.abt-hr {
+   border: none;
+   border-top: 3px solid #e2cdcd;
+   width: 80%;
+   margin: 20px auto;
+}
+
 /******* course*******/
 
 .nav-underline {
@@ -55,21 +117,20 @@ body {
 .img-fluid {
 
     height: 12vw;
-    object-fit: ;
 }
 
 .first-button {
-    background-color: ;
     width: 200px;
-    border: blue 1px solid;
+    border: black 1px solid;
     border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
 }
 
 .second-button, .third-button {
     padding: 5px;
     border: none;
     border-radius: 30px;
-    width: px;
     margin: 5px;
 }
 
@@ -80,13 +141,9 @@ body {
 
 .third-button {
     background-color: transparent;
-    text-decoration: ;
-    transition: text-decoration 0.1s ease-in-out;
 }
 
-.third-button:hover {
-    text-decoration: underline;
-}
+
 
 .fouth-button {
     background-color: transparent;
@@ -96,7 +153,6 @@ body {
 }
 
 .fifth-button {
-    background-color: ;
     border: black 1px solid;
     width: 200px;
     border-radius: 20px;
@@ -111,7 +167,6 @@ body {
 }
 
 .help {
-    height: ;
     padding: 20px;
 
 }
@@ -121,7 +176,7 @@ body {
     height: 600px;
     margin: 30px;
 }
-label, textarea {
+label {
     display: block;
     padding: 10px;
 }
@@ -129,25 +184,21 @@ label, textarea {
 input{
     height: 30px;
     width: 500px;
-    padding: ;
 
 }
 
 
 .right-box {
-    height: ;
-    padding: 20px;
+    padding: 15px;
 
 }
 
 .sixth-button {
-    background-color: ;
     border: black 1px solid;
-    border-radius: 2px;
+    border-radius: 20px;
     height: 40px;
     align-items: center;
     margin-top: 15px;
-    margin-left: 2%;
 }
 
 .send-message {
@@ -172,4 +223,35 @@ input{
 .quick-links a {
     color: black;
     text-decoration: none;
-}0
+}
+
+.to-top {
+   color: black;
+   position: fixed;
+   height: 40px;
+   right: 12px;
+   bottom: 12px;
+   width: 40px;
+   text-align: center;
+   border-radius: 50%;
+   background-color: aqua;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.to-top:hover {
+	background-color: aqua;
+}
+/********meida queries*******/
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        padding: 10px;
+    }
+    .hero-section {
+        font-size: 16px;
+    }
+    .first-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
