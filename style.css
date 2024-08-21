@@ -9,6 +9,7 @@ body {
    border-radius: 20px;
    border: black 1px solid;
    width: 150px;
+   padding: 3px;
 }
 
 .navbar {
@@ -74,9 +75,9 @@ body {
 /******* about*******/
 
 .first-abt, .second-abt, .third-abt {
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .abt-hr {
@@ -150,6 +151,7 @@ body {
     border: blue 1px solid;
     width: 200px;
     border-radius: 20px;
+    height: 35px;
 }
 
 .fifth-button {
@@ -173,7 +175,7 @@ body {
 
 /******* contact*******/
 .bg-contact {
-    height: 600px;
+    height: 500px;
     margin: 30px;
 }
 label {
@@ -187,6 +189,16 @@ input{
 
 }
 
+.contact-address {
+   padding: 60px;
+   text-align: left;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+.contact-address span {
+   display: block;
+ }
 
 .right-box {
     padding: 15px;
@@ -209,6 +221,7 @@ input{
 /******* footer*******/
 .bg-footer {
     margin: 30px;
+    
 }
 .last-footer {
     background-color: ;
@@ -245,7 +258,7 @@ input{
 /********meida queries*******/
 @media only screen and (max-width: 768px) {
     .jumbotron {
-        padding: 10px;
+        padding: 30px;
     }
     .hero-section {
         font-size: 16px;
@@ -253,5 +266,19 @@ input{
     .first-button {
         font-size: 14px;
         padding: 10px 20px;
+    }
+    .abt-codecraft {
+        padding: 20px;
+    }
+    .nav-underline {
+        flex-direction: ;
+        align-items: center;
+    }
+    .nav-item {
+        margin-bottom: 10px;
+    }
+    .nav-link {
+        padding: 10px 15px;
+        font-size: 15px;
     }
 }
