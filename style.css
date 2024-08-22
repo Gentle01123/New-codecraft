@@ -74,8 +74,12 @@ body {
   }
 /******* about*******/
 
+.bg-about {
+    padding-top: 50px;
+}
+
 .first-abt, .second-abt, .third-abt {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -238,6 +242,15 @@ input{
     text-decoration: none;
 }
 
+.quick-links li a:hover {
+    color: #407abd;
+    text-decoration: underline;
+}
+
+.quick-links li a {
+    transition: color 0.3s ease;
+}
+
 .to-top {
    color: black;
    position: fixed;
@@ -247,7 +260,7 @@ input{
    width: 40px;
    text-align: center;
    border-radius: 50%;
-   background-color: aqua;
+   background-color: ;
    background-position: center;
    background-repeat: no-repeat;
 }
@@ -271,8 +284,8 @@ input{
         padding: 20px;
     }
     .nav-underline {
-        flex-direction: ;
         align-items: center;
+        overflow-x: auto;
     }
     .nav-item {
         margin-bottom: 10px;
@@ -280,5 +293,18 @@ input{
     .nav-link {
         padding: 10px 15px;
         font-size: 15px;
+    }
+    .bg-contact {
+        margin-bottom: 200px;
+    }
+    .contact-address {
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+     }
+     .bg-about {
+        padding-top: 10px;
     }
 }
