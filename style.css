@@ -13,6 +13,8 @@ body {
 }
 
 .navbar {
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
     border-color: rgb(51, 17, 0);
 	border-color: rgba(51, 17, 0, 0.2);
 	font-weight: 700;
@@ -44,7 +46,6 @@ body {
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus:hover {
-	color: #ffc266;
 	transition: color 1s; 
 }
 
@@ -57,7 +58,7 @@ body {
 
 /*******jumbotron*******/
 .jumbotron {
-    background-color: ;
+    color: ;
     height: 790px;
     padding: 100px;
 }
@@ -91,6 +92,10 @@ body {
    margin: 20px auto;
 }
 
+.last-abt {
+    margin: 10px;
+}
+
 /******* course*******/
 
 .nav-underline {
@@ -104,7 +109,11 @@ body {
 }
 
 .tab-content {
-    background-color: rgb(215, 230, 225);
+    background: linear-gradient(
+    72deg,
+    #2c6368, #4F75FF
+    );
+    
     padding: 30px;
 }
 
@@ -179,9 +188,19 @@ body {
 
 /******* contact*******/
 .bg-contact {
-    height: 500px;
-    margin: 30px;
+    height: 550px;
+    margin: px;
+    background: linear-gradient(
+        72deg,
+        #6439FF, #00CCDD
+      );
 }
+
+.contact-heading {
+    padding: 20px;
+    color: white;
+}
+
 label {
     display: block;
     padding: 10px;
@@ -206,6 +225,7 @@ input{
 
 .right-box {
     padding: 15px;
+    background: white;
 
 }
 
@@ -228,7 +248,14 @@ input{
     
 }
 .last-footer {
-    background-color: ;
+    background-color: (
+        
+        
+    );
+}
+
+.last-footer p {
+    font-size: 17px;
 }
 
 .quick-links {
@@ -240,6 +267,7 @@ input{
 .quick-links a {
     color: black;
     text-decoration: none;
+    font-size: 17px;
 }
 
 .quick-links li a:hover {
@@ -250,6 +278,118 @@ input{
 .quick-links li a {
     transition: color 0.3s ease;
 }
+
+
+.social-login-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, #00000055);
+  }
+  .social-login-icons svg {
+    width: 40px;
+  }
+  
+  .social-icon-1,
+  .social-icon-1-1,
+  .social-icon-2,
+  .social-icon-2-2,
+  .social-icon-3,
+  .social-icon-3-3,
+  .social-icon-4,
+  .social-icon-4-4,
+  .social-icon-5,
+  .social-icon-5-5 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 20px 0 0px 0;
+  }
+  
+  .icon svg {
+    fill: #111;
+  }
+  
+  .socialcontainer {
+    height: 70px;
+    overflow: hidden;
+  }
+  .social-icon-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0);
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  }
+  .social-icon-1 svg,
+  .social-icon-2 svg,
+  .social-icon-3 svg,
+  .social-icon-4 svg,
+  .social-icon-5 svg {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+  }
+  .social-icon-1-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0, 0);
+  }
+  .socialcontainer:hover .social-icon-1 {
+    transform: translateY(-70px);
+  }
+  .socialcontainer:hover .social-icon-1 svg,
+  .socialcontainer:hover .social-icon-2 svg,
+  .socialcontainer:hover .social-icon-3 svg,
+  .socialcontainer:hover .social-icon-4 svg, 
+  .socialcontainer:hover .social-icon-5 svg {
+    opacity: 1;
+  }
+  .social-icon-2 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: linear-gradient(
+      72.44deg,
+      #ff7a00 11.92%,
+      #ff0169 51.56%,
+      #d300c5 85.69%
+    );
+  }
+  .socialcontainer:hover .social-icon-2 {
+    transform: translateY(-70px);
+  }
+  .social-icon-3 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: #316ff6;
+  }
+  
+  .socialcontainer:hover .social-icon-3 {
+    transform: translateY(-70px);
+  }
+  .social-icon-4 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  
+    background: linear-gradient(
+      180deg,
+      rgba(129, 34, 144, 1) 0%,
+      rgba(77, 34, 124, 1) 91%
+    );
+  }
+  
+  .socialcontainer:hover .social-icon-4 {
+    transform: translateY(-70px);
+  }
+  .social-icon-5 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: #FF0000;
+  }
+  
+  .socialcontainer:hover .social-icon-5 {
+    transform: translateY(-70px);
+  }
 
 .to-top {
    color: black;
@@ -306,5 +446,8 @@ input{
      }
      .bg-about {
         padding-top: 10px;
+    }
+    .bottom-footer {
+        padding-top: 30px;
     }
 }
